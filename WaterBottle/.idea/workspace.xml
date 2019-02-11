@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8866839d-4134-4819-b3ea-49625a41770b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Printer/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Printer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Printer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printer/out/test/classes/PrinterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Printer/out/test/classes/PrinterTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Printer/src/main/java/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Printer/src/main/java/Printer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Printer/src/test/java/PrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Printer/src/test/java/PrinterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />

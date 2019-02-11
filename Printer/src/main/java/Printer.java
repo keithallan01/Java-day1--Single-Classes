@@ -8,4 +8,8 @@ public class Printer {
     public int sheetsRemaining(){
        return this.sheets;
     }
+
+    public void print(int numPages, int numCopies){
+        this.sheets -= numPages * numCopies;
+    }
 }
