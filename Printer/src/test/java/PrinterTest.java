@@ -1,12 +1,14 @@
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 public class PrinterTest {
 
     Printer printer;
 
     @Test
-    public void hasPaper(){
-        printer = new Printer(10);
-        assertEquals(10, printer.paper());
+    public void hasSheetsRemaining(){
+        printer = new Printer(20);
+        assertEquals(20, printer.sheetsRemaining());
     }
 }
