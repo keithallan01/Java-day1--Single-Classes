@@ -11,19 +11,28 @@ public class Printer {
        return this.sheets;
     }
 
-
-    public void print(int numPages, int numCopies) {
-        if (this.sheets >= numPages * numCopies) {
-            this.sheets -= numPages * numCopies;
-            this.volume -= numPages * 1;
-        }
+    public int volume(){
+        return this.volume;
     }
 
     public void fill(){
         this.sheets = 20;
     }
 
-    public int volume(){
-        return this.volume;
+
+//    public void print(int numPages, int numCopies) {
+//        if (this.sheets >= numPages * numCopies) {
+//            this.sheets -= numPages * numCopies;
+//            this.volume -= numPages * 1;
+//        }
+//    }
+
+
+    public void print(int numPages, int numCopies) {
+        int totalPages = numPages * numCopies;
+        if (totalPages < sheets) {
+            this.sheets -= totalPages;
+            this.volume -= totalPages;
+        }
     }
 }
